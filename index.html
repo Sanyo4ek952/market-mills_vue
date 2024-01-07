@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240106140100">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240107102939">
 	<link rel="shortcut icon" href="">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 <body>
 	<div class="wrapper">
 		<button type="button" class="buscet-page _icon-buscet"><span>0</span></button>
-		<header data-scroll="105" class="header">
+		<header class="header">
 			<div class="header__top top-header">
 				<div class="top-header__container">
 					<div class="top-header__logo">
@@ -36,7 +36,7 @@
 					</form>
 				</div>
 			</div>
-			<div data-watch class="header__bottom bootom-header">
+			<div data-watch data-scroll="105" class="header__bottom bootom-header">
 				<div class="bootom-header__container">
 					<div class="bootom-header__menu menu">
 						<button type="button" class="bootom-header__buscet _icon-buscet"><span>0</span></button>
@@ -57,16 +57,149 @@
 					</div>
 				</div>
 			</div>
+
 		</header>
 		<main class="page">
-
+			<section class="main__swiper swiper-main">
+				<div class="swiper-main__slider swiper">
+					<div class="swiper-main__wrapper swiper-wrapper">
+						<div class="swiper-main__slide swiper-slide">
+							<div class="swiper-main__image-ibg"><picture><source srcset="img/main-swiper/01.webp" type="image/webp"><img src="img/main-swiper/01.jpg" alt=""></picture></div>
+							<div class="swiper-main__image-fon"></div>
+							<div class="swiper-main__content">
+								<div class="swiper-main__title">
+									<h2>Твердосплавные борфрезы</h2>
+								</div>
+								<div class="swiper-main__sub-title">Твердосплавные борфрезы для многих отраслей промышленности.
+								</div>
+								<div class="swiper-main__button-box">
+									<a href="" class="swiper-main__button swiper-main__button_wite">Оставить заявку</a>
+									<a href="" class="swiper-main__button">Узнать больше</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-main__slide swiper-slide">
+							<div class="swiper-main__image-ibg"><picture><source srcset="img/main-swiper/02.webp" type="image/webp"><img src="img/main-swiper/02.png" alt=""></picture></div>
+						</div>
+					</div>
+				</div>
+				<button type="button" class="swiper-button-prev swiper-main__prev"></button>
+				<button type="button" class="swiper-button-next swiper-main__next"></button>
+			</section>
+			<section class="main__advantages advantages-main">
+				<div class="advantages-main__container">
+					<div class="advantages-main__columns">
+						<article class="advantages-main__column">
+							<div class="advantages-main__img"><picture><source srcset="img/advantages/home.webp" type="image/webp"><img src="img/advantages/home.png" alt="Картинка"></picture></div>
+							<h2 class="advantages-main__title">
+								Испытания инструмента
+							</h2>
+							<div class="advantages-main__sub-title">
+								Испытание инструмента как на нашем предприятие так и на предприятие заказчика.
+							</div>
+						</article>
+						<article class="advantages-main__column">
+							<div class="advantages-main__img"><picture><source srcset="img/advantages/proectir.webp" type="image/webp"><img src="img/advantages/proectir.png" alt="Картинка"></picture></div>
+							<h2 class="advantages-main__title">
+								Проектирование интрумента
+							</h2>
+							<div class="advantages-main__sub-title">
+								Проектирование инструмента под нужды заказчика
+							</div>
+						</article>
+						<article class="advantages-main__column">
+							<div class="advantages-main__img"><picture><source srcset="img/advantages/tool.webp" type="image/webp"><img src="img/advantages/tool.png" alt="Картинка"></picture></div>
+							<h2 class="advantages-main__title">Изготовление инструмента</h2>
+							<div class="advantages-main__sub-title">
+								Изготавливаем инструмент по чертежам заказчика.
+							</div>
+						</article>
+						<article class="advantages-main__column">
+							<div class="advantages-main__img"><picture><source srcset="img/advantages/folder.webp" type="image/webp"><img src="img/advantages/folder.png" alt="Картинка"></picture></div>
+							<h2 class="advantages-main__title">Переточка инструмента</h2>
+							<div class="advantages-main__sub-title">
+								Переточка инструмента, восстановление геометрических форм, устранение биения.
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="main__services services-main">
+				<div class="services-main__container">
+					<div class="header-title">
+						<h2 class="header-title__title title">Наши услуги</h2>
+						<div class="header-title__subtitle">Миссия нашей компании заключается в создании
+							современной и востребованной продукции для наших заказчиков.</div>
+					</div>
+					<div class="services-main__columns">
+						<a href="">
+							<article class="services-main__column column-services-main">
+								<div class="column-services-main__image-ibg"><picture><source srcset="img/services/01.webp" type="image/webp"><img src="img/services/01.png" alt=""></picture></div>
+								<h3 class="column-services-main__title">Изготовление инструмента с заданными характеристиками
+									твердого сплава</h3>
+								<div class="column-services-main__sub-title">Изготовление инструмента с заданными
+									характеристиками
+									твёрдого сплава Хара...</div>
+								<div class="column-services-main__button _icon-arrow-swiper"><span>Узнать больше</span></div>
+							</article>
+						</a>
+						<a href="">
+							<article class="services-main__column column-services-main">
+								<div class="column-services-main__image-ibg"><picture><source srcset="img/services/02.webp" type="image/webp"><img src="img/services/02.jpg" alt=""></picture></div>
+								<h3 class="column-services-main__title">Изготовление твердосплавного инструмента по чертежам
+									Заказчика</h3>
+								<div class="column-services-main__sub-title">Изготовление твердосплавного инструмента
+									по чертежам Заказчика На нашем предпр...</div>
+								<div class="column-services-main__button _icon-arrow-swiper"><span>Узнать больше</span></div>
+							</article>
+						</a>
+						<a href="">
+							<article class="services-main__column column-services-main">
+								<div class="column-services-main__image-ibg"><picture><source srcset="img/services/03.webp" type="image/webp"><img src="img/services/03.jpg" alt=""></picture></div>
+								<h3 class="column-services-main__title">Испытания инструмента на предприятии Заказчика</h3>
+								<div class="column-services-main__sub-title">Испытания инструмента твердосплавного
+									инструмента на предприятии Заказчик...</div>
+								<div class="column-services-main__button _icon-arrow-swiper"><span>Узнать больше</span></div>
+							</article>
+						</a>
+						<a href="">
+							<article class="services-main__column column-services-main">
+								<div class="column-services-main__image-ibg"><picture><source srcset="img/services/04.webp" type="image/webp"><img src="img/services/04.jpg" alt=""></picture></div>
+								<h3 class="column-services-main__title">Переточка твердосплавного инструмента</h3>
+								<div class="column-services-main__sub-title">Переточка твердосплавного инструмента</div>
+								<div class="column-services-main__button _icon-arrow-swiper"><span>Узнать больше</span></div>
+							</article>
+						</a>
+						<a href="">
+							<article class="services-main__column column-services-main">
+								<div class="column-services-main__image-ibg"><picture><source srcset="img/services/05.webp" type="image/webp"><img src="img/services/05.jpg" alt=""></picture></div>
+								<h3 class="column-services-main__title">Подбор твердосплавного инструмента для выполнения задач
+									заказчика</h3>
+								<div class="column-services-main__sub-title">Подбор твердосплавного инструмента для
+									выполнения задач заказчика Реализация п...</div>
+								<div class="column-services-main__button _icon-arrow-swiper"><span>Узнать больше</span></div>
+							</article>
+						</a>
+						<a href="">
+							<article class="services-main__column column-services-main">
+								<div class="column-services-main__image-ibg"><picture><source srcset="img/services/06.webp" type="image/webp"><img src="img/services/06.jpg" alt=""></picture></div>
+								<h3 class="column-services-main__title">Проектирование и изготовление специального
+									твердосплавного инструмента</h3>
+								<div class="column-services-main__sub-title">Проектирование и изготовление специального
+									твердосплавного инструмента Твинтос...</div>
+								<div class="column-services-main__button _icon-arrow-swiper"><span>Узнать больше</span></div>
+							</article>
+						</a>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240106140100"></script>
+	<script src="js/app.min.js?_v=20240107102939"></script>
 </body>
 
 </html>
